@@ -39,7 +39,7 @@ function Form() {
       </pre>
       {/* Form */}
       <form className="container" onSubmit={handleSubmit}>
-        <h2 className="heading">Register Form</h2>
+        <h2 className="header">Register Form</h2>
         <div>
           <input
             type="text"

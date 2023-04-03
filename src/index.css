@@ -43,7 +43,8 @@ button:hover {
   background-color: #45a049;
 }
 .header {
-  width: 95%;
+  /* width: 60%; */
+  margin: auto 0;
   background-color: rgb(7, 2, 71);
   padding: 1px 20px;
   color: white;
