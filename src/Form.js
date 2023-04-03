@@ -11,9 +11,9 @@ function Form() {
     setInputData({ ...inputData, [e.target.name]: e.target.value });
   }
   // useEffect hook
-  // useEffect(() => {
-  // console.log("Registered");
-  // }, [flag]);
+  useEffect(() => {
+    // console.log("Registered");
+  }, [flag]);
 
   // function of form submit
   function handleSubmit(e) {
@@ -21,7 +21,7 @@ function Form() {
     if (!inputData.name || !inputData.email || !inputData.password) {
       alert("All Fields Are Mandotary!.");
     } else {
-      // setFlag(true);
+      setFlag(true);
     }
   }
   // component Return
